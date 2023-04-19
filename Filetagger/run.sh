@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 cd /eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C
-OUTPUTFILE="/afs/cern.ch/user/g/gdamolin/CMSSW_12_6_4/src/CTPPSTimeCalibration/Filetagger/ListLowPUFiles.txt"
+OUTPUTFILE="/afs/cern.ch/user/g/gdamolin/CMSSW_12_6_4/src/CTPPSTimeCalibration/Filetagger/List355933.txt"
 EXE="/afs/cern.ch/user/g/gdamolin/CMSSW_12_6_4/src/CTPPSTimeCalibration/Filetagger/test.exe"
 pwd
 echo "Reached eos directory, starting the loop"
