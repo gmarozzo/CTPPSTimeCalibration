@@ -16,7 +16,8 @@ void Mixed_Analysis(string inputFile,string outputFile){
  double av=htemp->GetMean();
  cout<<"Average "<<av <<endl;
  //if(abs(av-355933)<1||abs(av-355942)<1){
-  if(abs(av-355933)<0.5){
+  //if(abs(av-355933)<0.5){
+  if(abs(av-355942)<0.5){
   cout<<"File Saved!"<<endl;
   ofstream write (outputFile, std::ofstream::app);
   write<<inputFile<<endl;
