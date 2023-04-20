@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 cd /eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C
-OUTPUTFILE="/afs/cern.ch/user/g/gdamolin/CMSSW_12_6_4/src/CTPPSTimeCalibration/Filetagger/List355933.txt"
+OUTPUTFILE="/afs/cern.ch/user/g/gdamolin/CMSSW_12_6_4/src/CTPPSTimeCalibration/Filetagger/List355942.txt"
 EXE="/afs/cern.ch/user/g/gdamolin/CMSSW_12_6_4/src/CTPPSTimeCalibration/Filetagger/test.exe"
 pwd
 echo "Reached eos directory, starting the loop"
@@ -26,7 +26,7 @@ echo "8"
 for file in $(find ./EphemeralZeroBias8/EphemeralZeroBias8/220906_140118/0000 -maxdepth 1 -mindepth 1 -type f); do $EXE $file $OUTPUTFILE; done
 echo "9"
 for file in $(find ./EphemeralZeroBias9/EphemeralZeroBias9/220906_140143/0000 -maxdepth 1 -mindepth 1 -type f); do $EXE $file $OUTPUTFILE; done
-echo "10"
+echo "10"List355942.txt
 for file in $(find ./EphemeralZeroBias10/EphemeralZeroBias10/220906_140208/0000 -maxdepth 1 -mindepth 1 -type f); do $EXE $file $OUTPUTFILE; done
 echo "11"
 for file in $(find ./EphemeralZeroBias11/EphemeralZeroBias11/220906_140233/0000 -maxdepth 1 -mindepth 1 -type f); do $EXE $file $OUTPUTFILE; done
