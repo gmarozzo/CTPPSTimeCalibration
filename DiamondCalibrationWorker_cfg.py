@@ -5,7 +5,7 @@ process = cms.Process("PPSTiming2")
 process.load("FWCore.MessageService.MessageLogger_cfi")
 process.load('RecoPPS.Local.totemTimingLocalReconstruction_cff')
 process.source = cms.Source("EmptySource")
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 process.a1 = cms.EDAnalyzer("StreamThingAnalyzer",
     product_to_get = cms.string('m1')
@@ -40,45 +40,17 @@ process.ctppsDiamondRecHits.digiTag = cms.InputTag("ctppsDiamondRawToDigi", "Tim
 
 process.source = cms.Source("PoolSource",
     fileNames = cms.untracked.vstring(
-#'/store/data/Run2022C/AlCaPPSPrompt/ALCARECO/PPSCalMaxTracks-PromptReco-v1/000/357/479/00000/24a1d212-d92e-446d-85c7-7867596992aa.root'
-#'/store/data/Run2022C/AlCaPPSPrompt/ALCARECO/PPSCalMaxTracks-PromptReco-v1/000/357/479/00000/246293f9-b84e-41cc-a992-880dd4d99222.root'
-#'/store/data/Run2022C/AlCaPPSPrompt/ALCARECO/PPSCalMaxTracks-PromptReco-v1/000/357/329/00000/34f014fe-db35-4c71-aba5-a76206ded90a.root'
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_11.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_12.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_13.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_14.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_16.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_17.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_18.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_19.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_1.root',      # 
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_2.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_21.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_22.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_23.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_25.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_26.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_27.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_28.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_29.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_3.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_30.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_32.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_33.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_34.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_35.root',
-#                                 'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias4/EphemeralZeroBias4/220906_135951/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_36.root'
-                                  'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBias7/EphemeralZeroBias7/220906_102839/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_47.root',
+                                  'file:/eos/cms/store/group/phys_pps/AOD_EphemeralZeroBias_Run2022C/EphemeralZeroBiasXXX/EphemeralZeroBiasXXX/220906_YYY/0000/RECO_RAW2DIGI_L1Reco_RECO_PAT_ZZZ.root',
 ),
 )
 
-process.load("ALCARECOPPSCalTrackBasedSel_cff")
+#process.load("ALCARECOPPSCalTrackBasedSel_cff")
 
 process.load("CalibPPS.TimingCalibration.ppsTimingCalibrationPCLWorker_cfi")
 process.DQMStore = cms.Service("DQMStore")
 
 process.dqmOutput = cms.OutputModule("DQMRootOutputModule",
-    fileName = cms.untracked.string("worker_output.root")
+    fileName = cms.untracked.string("testoutput.root")
 )
 
 process.load("CalibPPS.TimingCalibration.ALCARECOPromptCalibProdPPSTimingCalib_cff")
@@ -89,15 +61,62 @@ process.totemRPRawToDigi.rawDataTag = "hltPPSCalibrationRaw"
 process.totemTimingRawToDigi.rawDataTag = "hltPPSCalibrationRaw"
 #process.ctppsDiamondRecHits.digiTag = cms.InputTag("ctppsDiamondRawToDigiAlCaRecoProducer", "worker")
 
+# define the HLT base path                                                                                                                                                                                 
+from HLTrigger.HLTfilters.hltHighLevel_cfi import hltHighLevel as _hlt
+process.ALCARECOPPSCalTrackBasedSelHLT = _hlt.clone(
+    andOr = True,
+    HLTPaths = ['HLT_EphemeralZeroBias_v*'],
+    #eventSetupPathKey = 'SiStripCalZeroBias', # in case we have a proper base key                                                                                                                         
+    throw = False
+)
+
+# select events passing the filter on pixel tracks                                                                                                                                                         
+from HLTrigger.special.hltPPSPerPotTrackFilter_cfi import hltPPSPerPotTrackFilter as _filter
+process.hltPPSPerPotTrackFilter_45 = _filter.clone(
+    pixelFilter = cms.VPSet(
+        cms.PSet( # sector 45, near pot                                                                                                                                                                    
+            detid = cms.uint32(2022703104),
+            minTracks = cms.int32(0),
+            maxTracks = cms.int32(1000),
+        ),
+        cms.PSet( # sector 45, far pot                                                                                                                                                                     
+            detid = cms.uint32(2023227392),
+            minTracks = cms.int32(1),
+            maxTracks = cms.int32(4),
+        ),
+    )
+)
+process.hltPPSPerPotTrackFilter_56 = _filter.clone(
+    pixelFilter = cms.VPSet(
+        cms.PSet( # sector 56, near pot                                                                                                                                                                    
+            detid = cms.uint32(2039480320),
+            minTracks = cms.int32(0),
+            maxTracks = cms.int32(1000),
+        ),
+        cms.PSet( # sector 56, far pot                                                                                                                                                                     
+            detid = cms.uint32(2040004608),
+            minTracks = cms.int32(1),
+            maxTracks = cms.int32(4),
+        ),
+    )
+)
+
+
+
 #process.ppsTimingCalibrationPCLWorker.diamondRecHitTags = cms.InputTag("ctppsDiamondRecHits","","PPSTiming2")
 process.ppsTimingCalibrationPCLWorker.diamondRecHitTags=cms.VInputTag(cms.InputTag("ctppsDiamondRecHits","","PPSTiming2"))
+
+
+
 
 process.path = cms.Path(
     #process.a1* 
     #process.ctppsRawToDigi *
     #process.ctppsDiamondRecHits *
     process.recoCTPPS *
-    process.seqALCARECOPPSCalTrackBasedSel*
+    process.ALCARECOPPSCalTrackBasedSelHLT *
+    (process.hltPPSPerPotTrackFilter_45 + process.hltPPSPerPotTrackFilter_56)*
+    #process.seqALCARECOPPSCalTrackBasedSel*
     process.ppsTimingCalibrationPCLWorker
     )
 
