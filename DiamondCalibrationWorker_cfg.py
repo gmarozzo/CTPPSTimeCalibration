@@ -112,7 +112,7 @@ process.ppsTimingCalibrationPCLWorker.diamondRecHitTags=cms.VInputTag(cms.InputT
 process.path = cms.Path(
     #process.a1* 
     #process.ctppsRawToDigi *
-    #process.ctppsDiamondRecHits *
+    process.ctppsDiamondRecHits *
     process.recoCTPPS *
     process.ALCARECOPPSCalTrackBasedSelHLT *
     (process.hltPPSPerPotTrackFilter_45 + process.hltPPSPerPotTrackFilter_56)*
