@@ -1,0 +1,1239 @@
+/eos/cms/store/express/Run2023D/StreamALCAPPSExpress/ALCARECO/PPSCalMaxTracks-Express-v1/000/369/956/00000
+Reached eos directory, starting the loop
+Scanning ./01f3728c-4307-43e6-9806-bbcb4dc79959.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f260f3505db in waitpid () from /lib64/libc.so.6
+#1  0x00007f260f2b2ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f26116c8c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f26116c6215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00000000004024dc in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#6  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00000000004024dc in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#6  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./034638ca-f116-4f41-9eef-ac2760c62ce8.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./037476be-99b3-4f96-9cf9-611e446ad5ac.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is7
+Scanning ./04b135c8-3039-45eb-a37e-e6f7b24d1683.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./07230a95-ef2a-43ac-9565-7bea94a9cf01.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is7
+Scanning ./0b356c45-1e79-46d5-9972-395fa33ac954.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./0b814922-128a-4134-bca8-44630e5aeb70.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./0be0dff9-4058-4d27-b533-fe776e18d251.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./0cbad0d4-1ac1-4cca-8a27-33dff81ab6ec.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is4
+Scanning ./101e17f7-b19f-4a25-8671-60ceeacea217.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./107bf18f-8142-451f-bd02-4576946bc6c9.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 2 and upper is0
+Scanning ./15561d8b-f8b5-4946-bd41-372654d0fb18.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./19a0b8f7-e79f-4dd2-ba53-d06420db3d5f.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 1 and upper is0
+Scanning ./1b775a4e-eeb9-416a-923a-ddf73debbfea.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./1bf7e474-2255-4657-8e2d-aeed1cde4c5b.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./1e809cba-1351-4ce6-853a-4b4082c5687e.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is13
+Scanning ./22d1758a-7ae5-4249-a62e-abf4d57bbeaf.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./245f4c49-f76e-452f-a1b0-a7c4fa2b890e.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./2a8ed4cd-b312-4d27-9709-b2accf54907b.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./31989524-fe7b-4231-91fd-3e16e12a5194.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f825a17f5db in waitpid () from /lib64/libc.so.6
+#1  0x00007f825a0e1ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f825c4f7c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f825c4f5215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f825c582350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f825c582350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./31c2d906-cf31-4c12-90fb-0aeccd94c10b.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f30350c15db in waitpid () from /lib64/libc.so.6
+#1  0x00007f3035023ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f3037439c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f3037437215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f30374c4350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f30374c4350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./326496f5-dee5-49f5-aee1-41519b5b4459.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 3 and upper is0
+Scanning ./333c19d2-38cd-44ec-9e0c-2b96ede5078a.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./35486453-037d-48ef-bd2d-969769a6f853.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f51fc2315db in waitpid () from /lib64/libc.so.6
+#1  0x00007f51fc193ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f51fe5a9c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f51fe5a7215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f51fe634350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f51fe634350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./406d8952-db17-4429-90df-86a42d196889.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is14
+Scanning ./4276fc0a-be2f-4d24-b5f0-d8e2777293c8.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f555f2c15db in waitpid () from /lib64/libc.so.6
+#1  0x00007f555f223ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f5561639c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f5561637215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f55616c4350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f55616c4350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./446e31d8-c299-4cc4-b3f8-7f3fcc9b0085.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is6
+Scanning ./4a9f3a34-5c25-4a90-9b55-d1ba10b18164.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./4bf517e8-a9ab-4748-bd02-01b30764ec0b.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./4c0719a1-9100-41cf-bd30-149b2383c2a6.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is12
+Scanning ./4f111ad7-f20a-4f2f-8efb-b172147c9026.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./52522551-f56e-4974-96c1-ac72ef1893f3.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is1
+Scanning ./5326ad11-8cd8-45cb-a46b-49df4f67c794.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is4
+Scanning ./53c5da81-a779-492e-998a-94daf9e560d7.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./587753e0-8f4b-45c9-8597-bafdafbf2dda.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./5ac31660-517f-47b9-b91d-8253e274440b.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 4 and upper is0
+Scanning ./5e8fe798-0280-4d83-acef-e2d5bb9c9c77.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is2
+Scanning ./60831672-80f2-4e3d-8ec4-afe0fe7ce8d3.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f8d469bc5db in waitpid () from /lib64/libc.so.6
+#1  0x00007f8d4691ece7 in do_system () from /lib64/libc.so.6
+#2  0x00007f8d48d34c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f8d48d32215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00000000004024cd in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#6  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00000000004024cd in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#6  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./62fa735e-78c6-44b5-b630-247d1cb1e074.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./63cb3366-9eae-4751-b816-517d05e7f4e7.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 0
+Discard file
+Scanning ./691be1ae-635c-435d-868c-ad3d80b6df2d.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./6ec4b6c0-fac7-42dc-9b47-2d873d7862af.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f81628da5db in waitpid () from /lib64/libc.so.6
+#1  0x00007f816283cce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f8164c52c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f8164c50215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f8164cdd350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f8164cdd350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./7412e071-1a1b-4be2-ab40-ac53e42bc06f.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./74394f01-b246-4a99-9fc9-fdd71c83d1ff.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is13
+Scanning ./764d87c0-6630-498f-bce2-f8b76be12e49.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./772d055a-9024-4832-825f-18779f41ff69.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./78a85068-37a9-4e4e-a0d7-9b647721dab0.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./796e61f5-c4ac-40f7-a8b3-f57e199a5060.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./7a27baa5-95c6-44b4-92e6-f86069d13f7e.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./7d329351-34ef-4a95-ba95-a15e6589f359.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./82659e32-5adf-40e9-abf8-54f1a71130f2.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 0
+Discard file
+Scanning ./85979def-3006-4980-9426-cf8798809f4c.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./859ebac6-a712-428c-b9d4-95a444bcdf78.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 9 and upper is0
+Scanning ./86cf8096-b331-413a-acda-67abc2ea9b41.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./886e1c1e-9e97-4239-82a0-020daccd7e58.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is13
+Scanning ./886e55cb-8196-4ec9-b052-0bd58919c83e.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./899ba33f-aabd-46c9-8eb9-8139125bfca5.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./8a6e454a-b6ea-4083-9292-b21dbb4df4f4.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./8fed8a1c-e572-4b19-b030-5f6e276000c2.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./a872a54b-308b-4630-9444-70ee8968c11f.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is7
+Scanning ./ab1f5188-c06a-4449-8cd3-7eb830a461fd.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./ac2b6604-696c-4343-897c-48f0ef539831.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./af22895c-7579-4a19-818a-0152e832650a.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is14
+Scanning ./b251f9c3-f882-4768-9424-9b3d507aa4f7.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./b549cc31-d991-430d-ac9b-1a6c9769e587.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./b67ea9e6-cf21-4975-8abc-08c5370407c4.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./b978509a-eafb-4838-b09b-7cedc089e073.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is3
+Scanning ./b9799256-5c5e-4eb2-aa06-222dd11ec397.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007fdfbd39f5db in waitpid () from /lib64/libc.so.6
+#1  0x00007fdfbd301ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007fdfbf717c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007fdfbf715215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007fdfbf7a2350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007fdfbf7a2350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./ba4c2648-2b56-4773-bcc1-d120fb61c5ee.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./ba76f7d9-56f7-481b-b4d9-eb3abf1bba87.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./bb0564aa-2ffb-4ed4-9cbc-4d52dd2ba8f8.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./bc990a02-844d-4567-afc8-796c9a783d9a.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./bf848809-2a6f-47a1-a577-df196b0bfb3f.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007fe2554db5db in waitpid () from /lib64/libc.so.6
+#1  0x00007fe25543dce7 in do_system () from /lib64/libc.so.6
+#2  0x00007fe257853c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007fe257851215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007fe2578de350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007fe2578de350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./bf86b6b6-4b53-4df5-97ff-46b0b360c479.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 1 and upper is0
+Scanning ./bf9bafed-ac81-48f3-a1d6-8cb6da4ec4e4.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./c0b3ff53-b2fb-4491-88de-72e403c38ab0.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007fa98a0595db in waitpid () from /lib64/libc.so.6
+#1  0x00007fa989fbbce7 in do_system () from /lib64/libc.so.6
+#2  0x00007fa98c3d1c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007fa98c3cf215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007fa98c45c350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007fa98c45c350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./c6465676-7517-4c86-9e4f-7c30124466bc.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is1
+Scanning ./c74ae9a8-9575-4547-8abe-847d1f9b3069.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is9
+Scanning ./cc0d63d5-8eb2-483e-96fe-4b83e85590da.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 1 and upper is0
+Scanning ./cc75761c-f7fa-4ef7-ab45-89b7565407af.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./cdf113bb-2180-4a1d-9653-ee4883d04fc7.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 2 and upper is0
+Scanning ./ce25bc63-c876-4e76-b450-5e28a9797872.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 0
+Discard file
+Scanning ./cf98e5d9-b9d5-42b7-a7d6-da00d4559396.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./d0b25f98-b46d-4382-ba64-6ca679855b9e.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./d0d6c52e-245d-4f96-a6f7-dbcf87c8decc.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./d0f54959-f396-4a81-a38b-a6ba24f84080.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./d12464cf-a451-4df5-a09b-5d2af5140bc1.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./d270ac27-8630-4d5b-b3b1-6065f0e867e9.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 11 and upper is0
+Scanning ./da9c7039-2d34-41dc-92c8-b3517a11f0f4.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./de9aa01a-90b7-48f7-a5e8-012251ffa1c3.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./e0d854ec-7dce-4f33-8dd6-cb57295ef64c.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./e147866c-3ff8-4aca-b800-c261b11b00b3.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f6fb9dcc5db in waitpid () from /lib64/libc.so.6
+#1  0x00007f6fb9d2ece7 in do_system () from /lib64/libc.so.6
+#2  0x00007f6fbc144c7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f6fbc142215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f6fbc1cf350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f6fbc1cf350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./e3447890-be9f-4629-973d-d3dedb6d17e8.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./e4699552-fafd-4638-aecf-13c4bed11d45.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./e85a8629-0ad9-49d5-854c-df41ba0d8494.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is14
+Scanning ./eacb2d8a-2a61-4083-a03e-ee589bfcc537.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 10 and upper is0
+Scanning ./ec1c02ec-ddee-4de7-8464-ff250fcf3198.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./ef3e0a3c-f2fe-4380-9312-e4046fbffeb0.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./f03b08df-c1a2-4bdf-80a1-ebc3600809bd.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f67b05335db in waitpid () from /lib64/libc.so.6
+#1  0x00007f67b0495ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f67b28abc7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f67b28a9215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f67b2936350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f67b2936350 in typeinfo name for TDataMember () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#6  0x00000000004024de in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./f5977678-a85b-4220-9c65-147379b4e6a5.root
+file retrieved
+tree retrieved
+debbug
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f71f5bd45db in waitpid () from /lib64/libc.so.6
+#1  0x00007f71f5b36ce7 in do_system () from /lib64/libc.so.6
+#2  0x00007f71f7f4cc7b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#3  0x00007f71f7f4a215 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/el8_amd64_gcc10/cms/cmssw-patch/CMSSW_12_4_14_patch2/external/el8_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00000000004024cd in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#6  0x0000000000402988 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00000000004024cd in Mixed_Analysis(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#6  0x0000000000402988 in main ()
+===========================================================
+
+
+Scanning ./f5fd0396-9a72-45b6-b8ac-be6734015435.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 1 and upper is0
+Scanning ./f89315b8-1d5d-466a-a392-38acf798e93b.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 15 and upper is0
+Scanning ./f8b5c733-0e75-441a-ad05-0ff33ee91209.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./fa9c66bd-0dc0-4cfb-ad0b-845a2925da47.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is15
+Scanning ./fbd1c64b-e0de-4a71-af3a-aa383b08a8c4.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 3 and upper is0
+Scanning ./fc502fc8-884d-46ea-a507-e614d0787d9e.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+Discard file because lower integral is 0 and upper is6
+Scanning ./fcd648d8-b16d-428c-9803-39ee7e26e49f.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+Scanning ./fd31e4af-ba71-47e2-ad6f-665285cc56c8.root
+file retrieved
+tree retrieved
+debbug
+run number retrieved
+Number of runs in this file 1
+Average 369956
+File Saved!
+fiished
+/eos/user/g/gdamolin/PPS_timeCalibration/CTPPSTimeCalibration/Filetagger
