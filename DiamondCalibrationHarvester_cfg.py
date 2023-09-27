@@ -1,6 +1,7 @@
-run = 355933
+run = 369956
 #input_file=['/store/express/Run2022D/StreamALCAPPSExpress/ALCAPROMPT/PromptCalibProdPPSTimingCalib-Express-v2/000/357/902/00000/123861b4-b632-4835-91b6-1e586d34509e.root']
-input_file=['file:worker_output.root']
+#input_file=['file:/afs/cern.ch/user/g/gmarozzo/CMSSW_12_6_4/src/test/Dir/Template_Chunk1/testoutput.root']
+input_file=['file:testoutput.root']
 
 import FWCore.ParameterSet.Config as cms
 from Configuration.StandardSequences.Eras import eras
@@ -34,6 +35,8 @@ process.PoolDBOutputService = cms.Service('PoolDBOutputService',
     toPut = cms.VPSet(
         cms.PSet(
             record = cms.string('PPSTimingCalibrationRcd_HPTDC'),
+            #record = cms.string(''),
+            #tag = cms.string('sqlitetag'),
             tag = cms.string('DiamondTimingCalibration'),
         )
     )
